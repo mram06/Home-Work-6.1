@@ -100,10 +100,6 @@ body{
         letter-spacing: -0.03em;
         text-transform: uppercase;
     }
-    &__question-row{
-        display: flex;
-        justify-content: space-between;
-    }
     &__answer {
         line-height: 24px;
         letter-spacing: -0.03em;
@@ -153,5 +149,10 @@ body{
     }
     .support__title{
         margin: 10px 0;
+    }
+}
+@media only screen and (max-width: 400px){
+    .faq__answer {
+        margin: 30px 0 0 0;
     }
 }
