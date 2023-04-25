@@ -130,10 +130,10 @@ body{
     top: 35px;
 }
 .accord_btn > span::before{
-    content: url(../img/plus_icon.png);
+    content: url(../img/plus_icon.svg);
 }
 .check_btn:checked ~ .accord_btn > span::before{
-    content: url(../img/minus_icon.png);
+    content: url(../img/minus_icon.svg);
 }
 .check_btn:checked ~ .faq__answer{
     display: block;
